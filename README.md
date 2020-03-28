@@ -1,68 +1,38 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Recipe app
+---
 
-## Available Scripts
+This is a simple react project to search for recipes using external API.
+I used context to pass information between components, but you don't have to. You can pass the information through props using state since the structure of this application is quite simple.
+When using Api you can use the way I used it or get the information from some backend to protect your Api key, since if you do it this way it will be visible to anyone who inspects your website code. To use this project you will need an Api key.
 
-In the project directory, you can run:
+## Dependencies
 
-### `yarn start`
+* [React-Icons](https://react-icons.github.io/react-icons/)
+* [Node-Sass](https://www.npmjs.com/package/node-sass?activeTab=versions)
+* [React-Modal](https://www.npmjs.com/package/react-modal)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Api used
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+[Edamam](https://developer.edamam.com/)
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+---
+---
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Recipe app
+---
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Esse é um simples site feito em React usando uma Api externa.
+Eu usei context para passar as informações entre os componentes, mas voce não precisa fazer isso. Você pode passar as informações por props utilizando state já que a estrutura dessa aplicação é bem simples.
+Ao usar a Api você pode usar do jeito que eu usei ou pegar as informações de algum backend para proteger sua Api key, já que se você fizer desse jeito ela será visivel para qualquer pessoa que inspecione o codigo do seu site. Para usar esse projeto você vai precisar de uma Api key.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencias
 
-### `yarn eject`
+* [React-Icons](https://react-icons.github.io/react-icons/)
+* [Node-Sass](https://www.npmjs.com/package/node-sass?activeTab=versions)
+* [React-Modal](https://www.npmjs.com/package/react-modal)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Api usada
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Edamam](https://developer.edamam.com/)
